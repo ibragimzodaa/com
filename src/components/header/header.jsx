@@ -30,7 +30,6 @@ const Header = () => {
       <div className="icon">
         <Image src={iconCarzine} alt=''/>
       </div>
-        <Image className='w-[40px]' src={hamburgerIcon} alt=''/>
       </div>
       {pathname == "/" && <div className='divPathHome container'>
         <h1>Rest, Relax, Unwind</h1>
